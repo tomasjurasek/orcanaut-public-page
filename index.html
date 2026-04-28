@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>orcanaut. — AI Agents That Do Your Processes</title>
-  <meta name="description" content="Connect your tools via MCP, describe the process, and let Orcanaut's AI agents handle the rest. Multi-step workflows, human approvals, multi-agent collaboration — agents that reason, execute, and learn.">
+  <title>orcanaut. — Klidnější život ve vašem domě</title>
+  <meta name="description" content="Hlídá revize, pojistky a údržbu. Eviduje opravy a stavební deník. Kompletní historie domu jedním klikem — třeba pro prodej.">
 
   <!-- Open Graph / LinkedIn -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Orcanaut — AI Agents That Do Your Processes">
-  <meta property="og:description" content="Connect your tools via MCP, describe the process, and let AI agents handle the rest. Multi-step workflows, human approvals, and agents that learn.">
+  <meta property="og:title" content="orcanaut. — Klidnější život ve vašem domě">
+  <meta property="og:description" content="Hlídá revize, pojistky a údržbu. Eviduje opravy a stavební deník. Kompletní historie domu jedním klikem — třeba pro prodej.">
   <meta property="og:image" content="og-image.png">
   <meta property="og:url" content="https://orcanaut.com">
-  <meta property="og:site_name" content="Orcanaut">
+  <meta property="og:site_name" content="orcanaut">
+  <meta property="og:locale" content="cs_CZ">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Orcanaut — AI Agents That Do Your Processes">
-  <meta name="twitter:description" content="Connect your tools via MCP. Multi-step workflows, human approvals, agents that learn.">
+  <meta name="twitter:title" content="orcanaut. — Klidnější život ve vašem domě">
+  <meta name="twitter:description" content="Hlídá revize, pojistky a údržbu. Eviduje opravy a stavební deník.">
   <meta name="twitter:image" content="og-image.png">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,9 +58,10 @@
     <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
       <a href="#" class="font-display text-xl font-bold tracking-tight text-ink hover:text-accent transition-colors">orcanaut.</a>
       <div class="flex items-center gap-6">
-        <a href="#features" class="text-sm text-ink/50 hover:text-ink transition-colors hidden sm:block">Features</a>
-        <a href="#how" class="text-sm text-ink/50 hover:text-ink transition-colors hidden sm:block">How it works</a>
-        <a href="#waitlist" class="text-sm font-medium text-white bg-accent hover:bg-accent/90 px-4 py-2 rounded-md transition-colors">Early Access</a>
+        <a href="#features" class="text-sm text-ink/50 hover:text-ink transition-colors hidden sm:block">Funkce</a>
+        <a href="#how" class="text-sm text-ink/50 hover:text-ink transition-colors hidden sm:block">Jak to funguje</a>
+        <a href="#pricing" class="text-sm text-ink/50 hover:text-ink transition-colors hidden sm:block">Ceník</a>
+        <a href="#cta" class="text-sm font-medium text-white bg-accent hover:bg-accent/90 px-4 py-2 rounded-md transition-colors">Vyzkoušet zdarma</a>
       </div>
     </div>
   </nav>
@@ -70,74 +73,76 @@
         <!-- Left: copy -->
         <div>
           <h1 class="font-display text-4xl sm:text-5xl font-bold tracking-tight leading-[1.1] text-ink">
-            AI Agents That Do<br>
-            <span class="text-accent">Your Processes</span>
+            Žádné zapomenuté revize.<br>
+            <span class="text-accent">Žádné chaotické šanony.</span>
           </h1>
           <p class="mt-6 text-lg text-ink/60 leading-relaxed max-w-md">
-            Connect your tools via MCP. Define multi-step workflows. Orcanaut's agents reason through the steps, ask for approval when it matters, and get smarter with every run.
+            orcanaut hlídá termíny revizí, eviduje opravy a drží kompletní historii vašeho domu &mdash; abyste se mohli soustředit na to, co se v něm děje.
           </p>
 
-          <!-- Pipeline -->
-          <div class="mt-8 flex flex-nowrap items-center gap-1.5">
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8 shrink-0">connect</span>
-            <svg class="w-3 h-3 text-ink/20 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8 shrink-0">reason</span>
-            <svg class="w-3 h-3 text-ink/20 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8 shrink-0">execute</span>
-            <svg class="w-3 h-3 text-ink/20 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8 shrink-0">approve</span>
-            <svg class="w-3 h-3 text-ink/20 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8 shrink-0">learn</span>
-            <svg class="w-3 h-3 text-ink/20 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-accent/10 text-accent border border-accent/20 shrink-0">deliver</span>
+          <!-- Kategorie pokrytí -->
+          <div class="mt-8 flex flex-wrap items-center gap-1.5">
+            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8">Revize</span>
+            <span class="text-ink/20 text-xs">·</span>
+            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8">Pojistky</span>
+            <span class="text-ink/20 text-xs">·</span>
+            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8">Údržba</span>
+            <span class="text-ink/20 text-xs">·</span>
+            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-ink/5 text-ink/60 border border-ink/8">Opravy</span>
+            <span class="text-ink/20 text-xs">·</span>
+            <span class="text-[11px] font-medium uppercase px-2 py-1 rounded-full bg-accent/10 text-accent border border-accent/20">Stavební deník</span>
           </div>
 
+          <!-- CTA -->
+          <div class="mt-10 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <a href="#cta" class="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-colors text-sm">Vyzkoušet 30 dní zdarma</a>
+            <span class="text-xs text-ink/40">bez závazku, bez platební karty</span>
+          </div>
         </div>
 
-        <!-- Right: product mockup -->
+        <!-- Right: dashboard mockup -->
         <div class="bg-white rounded-xl overflow-hidden shadow-2xl shadow-ink/10 border border-ink/5">
-          <div class="px-4 py-2.5 border-b border-ink/5 flex items-center gap-2">
-            <div class="w-2 h-2 rounded-full bg-accent"></div>
-            <span class="text-xs text-ink/40 font-medium">orcanaut agent</span>
+          <div class="px-4 py-3 border-b border-ink/5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-base">🏠</span>
+              <span class="text-sm font-medium text-ink/80">Dům na Slovenské 12, Brno</span>
+            </div>
+            <span class="text-[11px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">87/100</span>
           </div>
-          <div class="p-5 space-y-4">
-            <!-- User message -->
-            <div class="flex justify-end">
-              <div class="bg-ink/5 rounded-xl rounded-tr-sm px-4 py-2.5 max-w-[85%]">
-                <p class="text-sm text-ink/80">Process new vendor invoices and schedule payments</p>
+          <div class="p-5">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-medium uppercase tracking-wide text-ink/40">Nadcházející termíny</span>
+              <span class="text-xs text-ink/30">3</span>
+            </div>
+            <div class="space-y-2.5">
+              <div class="flex items-center gap-3 p-2.5 rounded-lg bg-red-50/60 border border-red-100/60">
+                <span class="w-2 h-2 rounded-full bg-red-500 shrink-0"></span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-medium text-ink/80 truncate">Revize plynového kotle</p>
+                  <p class="text-xs text-ink/45 mt-0.5">Vyhláška č. 85/1978 Sb.</p>
+                </div>
+                <span class="text-xs font-medium text-red-700 shrink-0">za 12 dní</span>
+              </div>
+              <div class="flex items-center gap-3 p-2.5 rounded-lg bg-amber-50/60 border border-amber-100/60">
+                <span class="w-2 h-2 rounded-full bg-amber-500 shrink-0"></span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-medium text-ink/80 truncate">Tlaková zkouška vodovodu</p>
+                  <p class="text-xs text-ink/45 mt-0.5">Plánovaná údržba</p>
+                </div>
+                <span class="text-xs font-medium text-amber-700 shrink-0">za 2 měsíce</span>
+              </div>
+              <div class="flex items-center gap-3 p-2.5 rounded-lg bg-emerald-50/60 border border-emerald-100/60">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
+                <div class="flex-1 min-w-0">
+                  <p class="text-sm font-medium text-ink/80 truncate">Sezónní checklist: Jaro</p>
+                  <p class="text-xs text-ink/45 mt-0.5">14 úkolů</p>
+                </div>
+                <span class="text-xs font-medium text-emerald-700 shrink-0">za 3 měsíce</span>
               </div>
             </div>
-            <!-- Agent steps -->
-            <div class="flex justify-start">
-              <div class="space-y-3 max-w-[85%]">
-                <div class="text-xs text-ink/35 flex items-center gap-2">
-                  <svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                  Scanning 8 new invoices from email
-                </div>
-                <div class="text-xs text-ink/35 flex items-center gap-2">
-                  <svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                  Matching invoices to purchase orders
-                </div>
-                <div class="text-xs text-ink/35 flex items-center gap-2">
-                  <svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                  Flagged 2 invoices over $5k for review
-                </div>
-                <!-- Approval gate -->
-                <div class="text-xs flex items-center gap-2">
-                  <svg class="w-3.5 h-3.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                  <span class="text-green-600/70">Manager approved payment batch</span>
-                </div>
-                <div class="text-xs text-ink/35 flex items-center gap-2">
-                  <svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                  Payments scheduled in accounting system
-                </div>
-              </div>
-            </div>
-            <!-- Agent result -->
-            <div class="flex justify-start">
-              <div class="bg-accent/5 border border-accent/10 rounded-xl rounded-tl-sm px-4 py-3 max-w-[85%]">
-                <p class="text-sm text-ink/70">8 invoices processed. 6 auto-approved, 2 manager-approved. All payments scheduled.</p>
-              </div>
+            <div class="mt-4 pt-4 border-t border-ink/5 flex items-center gap-2 text-xs text-ink/40">
+              <svg class="w-3.5 h-3.5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              Vše hlídáme za vás
             </div>
           </div>
         </div>
@@ -148,48 +153,41 @@
   <!-- Features -->
   <section id="features" class="py-20">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-12">Why teams choose Orcanaut</h2>
+      <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-12">Vše, o čem dům mlčí, my pamatujeme</h2>
       <div class="grid sm:grid-cols-2 gap-x-16 gap-y-10">
         <div class="flex gap-4">
           <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
           <div>
-            <h3 class="font-display font-bold text-lg">Connect any tool via MCP</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Jira, Slack, CRM, databases, APIs &mdash; plug in MCP servers and your agent can use them all. One protocol, any tool.</p>
+            <h3 class="font-display font-bold text-lg">Revize a pojistky</h3>
+            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Plyn, komín, elektrika, hromosvod. orcanaut zná termíny dle české legislativy a upozorní vás včas. Pojistky a faktury máte na jednom místě.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
           <div>
-            <h3 class="font-display font-bold text-lg">Multi-step workflows</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Define processes as a sequence of steps. Each step runs autonomously, with built-in approval gates for actions that need a human sign-off.</p>
+            <h3 class="font-display font-bold text-lg">Pravidelná údržba</h3>
+            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Sezónní checklisty pro jaro, léto, podzim, zimu. Opakující se úkoly podle vašich spotřebičů &mdash; kotel, klima, septik, zavlažovač.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
           <div>
-            <h3 class="font-display font-bold text-lg">Human-in-the-loop</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Agents pause for approval when it matters &mdash; payments over a threshold, sensitive actions, edge cases. You stay in control without micromanaging.</p>
+            <h3 class="font-display font-bold text-lg">Opravy a historie</h3>
+            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Co se kdy rozbilo, kdo to opravil, kolik to stálo. Faktury, fotky a kontakty na řemeslníky &mdash; všechno provázané s místností a spotřebičem.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
           <div>
-            <h3 class="font-display font-bold text-lg">Agents that learn &amp; improve</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Every run stores learnings in memory. Run 1 takes 5 steps. Run 50 takes 2. Your agents get smarter over time &mdash; that's a moat no workflow builder can match.</p>
+            <h3 class="font-display font-bold text-lg">Stavební deník</h3>
+            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Rekonstrukce, vlastní úpravy, drobné kutilství. Fotky, datumy, materiály &mdash; postupně vznikající dokumentace všeho, co jste s domem udělali.</p>
           </div>
         </div>
-        <div class="flex gap-4">
+        <div class="flex gap-4 sm:col-span-2">
           <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
           <div>
-            <h3 class="font-display font-bold text-lg">Multi-agent collaboration</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Agents delegate tasks to specialized agents. A project manager agent can hand off research to a data agent and reporting to an analytics agent &mdash; all coordinated automatically.</p>
-          </div>
-        </div>
-        <div class="flex gap-4">
-          <div class="w-0.5 bg-accent/30 shrink-0 rounded-full"></div>
-          <div>
-            <h3 class="font-display font-bold text-lg">Fully observable</h3>
-            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Every step is logged and streamable in real-time. You see exactly what the agent did, which tools it called, and why.</p>
+            <h3 class="font-display font-bold text-lg">Export pro prodej</h3>
+            <p class="mt-1 text-sm text-ink/55 leading-relaxed">Až budete prodávat, jedním klikem vygenerujete kompletní historii domu &mdash; revize, opravy, energetiku, stavební deník. Kupující ocení transparentnost, vy získáte vyšší cenu.</p>
           </div>
         </div>
       </div>
@@ -199,48 +197,106 @@
   <!-- How It Works -->
   <section id="how" class="py-20 border-t border-ink/5">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-12">Simple as 1-2-3</h2>
+      <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-12">Začít je otázka pár minut</h2>
       <div class="space-y-8 max-w-2xl">
         <div class="flex gap-6 items-start">
           <span class="font-mono text-sm text-accent font-bold mt-0.5 shrink-0">01</span>
           <div>
-            <h3 class="font-display font-bold">Connect your tools</h3>
-            <p class="text-sm text-ink/55 mt-1">Plug in MCP servers for Jira, Slack, databases, or any service your team uses.</p>
+            <h3 class="font-display font-bold">Přidejte svůj dům</h3>
+            <p class="text-sm text-ink/55 mt-1">Adresa, rok výstavby, vytápění. Pár otázek a máme základ.</p>
           </div>
         </div>
         <div class="flex gap-6 items-start">
           <span class="font-mono text-sm text-accent font-bold mt-0.5 shrink-0">02</span>
           <div>
-            <h3 class="font-display font-bold">Define an agent or workflow</h3>
-            <p class="text-sm text-ink/55 mt-1">Describe its role, which tools it can use, add approval steps where needed, and let agents collaborate on complex processes.</p>
+            <h3 class="font-display font-bold">Nastavte spotřebiče a místnosti</h3>
+            <p class="text-sm text-ink/55 mt-1">Kotel, klima, kuchyně, koupelna. Šablony si poradí, vy jen doplníte detaily.</p>
           </div>
         </div>
         <div class="flex gap-6 items-start">
           <span class="font-mono text-sm text-accent font-bold mt-0.5 shrink-0">03</span>
           <div>
-            <h3 class="font-display font-bold">Give it a task</h3>
-            <p class="text-sm text-ink/55 mt-1">The agent reasons through the process, calls the right tools in the right order, and delivers results. It learns from every run.</p>
+            <h3 class="font-display font-bold">orcanaut hlídá, vy žijete</h3>
+            <p class="text-sm text-ink/55 mt-1">Notifikace před každým termínem, úkoly v telefonu, historie roste sama.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Waitlist -->
-  <section id="waitlist" class="py-20 border-t border-ink/5">
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 border-t border-ink/5">
     <div class="max-w-5xl mx-auto px-6">
-      <div class="max-w-lg">
-        <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight">Ready to automate your processes?</h2>
-        <p class="mt-3 text-ink/55">Join the waitlist. We'll let you know when it's your turn.</p>
-        <form id="hero-form" class="mt-8 max-w-sm" onsubmit="handleSubmit(event, this)">
-          <div class="flex gap-2">
-            <input id="email" type="email" required placeholder="you@company.com" class="flex-1 px-4 py-2.5 rounded-md border border-ink/10 bg-white focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent text-sm">
-            <button type="submit" class="px-5 py-2.5 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-colors text-sm whitespace-nowrap">
-              Join
-            </button>
+      <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight">Jednoduchý ceník</h2>
+      <p class="mt-3 text-ink/55">Začněte zdarma, upgradujte když budete potřebovat víc.</p>
+
+      <div class="mt-12 grid sm:grid-cols-2 gap-6 max-w-3xl">
+        <!-- Free -->
+        <div class="bg-white rounded-2xl p-7 border border-ink/8">
+          <div class="flex items-baseline justify-between">
+            <h3 class="font-display font-bold text-xl">Zdarma</h3>
+            <span class="text-xs text-ink/40 uppercase tracking-wide">Navždy</span>
           </div>
-          <p class="mt-2 text-xs text-ink/40">No spam, no credit card. Just early access.</p>
-        </form>
+          <p class="mt-2 text-sm text-ink/55">Pro jeden dům s pár spotřebiči.</p>
+          <ul class="mt-6 space-y-2.5 text-sm text-ink/65">
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>1 dům</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Až 5 spotřebičů</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Základní hlídání termínů</span>
+            </li>
+          </ul>
+          <a href="#" class="mt-7 block text-center px-5 py-2.5 border border-ink/15 hover:border-ink/30 text-ink font-medium rounded-md transition-colors text-sm">Začít zdarma</a>
+        </div>
+
+        <!-- Premium -->
+        <div class="bg-white rounded-2xl p-7 border-2 border-accent relative">
+          <div class="absolute -top-3 left-7 bg-accent text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded">Doporučujeme</div>
+          <div class="flex items-baseline justify-between">
+            <h3 class="font-display font-bold text-xl">Premium</h3>
+          </div>
+          <div class="mt-2">
+            <span class="font-display text-3xl font-bold">199 Kč</span>
+            <span class="text-sm text-ink/50"> / měsíc</span>
+          </div>
+          <p class="mt-2 text-sm text-ink/55">Vše, co dům potřebuje.</p>
+          <ul class="mt-6 space-y-2.5 text-sm text-ink/65">
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Neomezený počet domů, spotřebičů a dokumentů</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Stavební deník &amp; export pro prodej</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Rodinné sdílení (vlastník, člen, host)</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <svg class="w-4 h-4 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+              <span>Prioritní podpora</span>
+            </li>
+          </ul>
+          <a href="#cta" class="mt-7 block text-center px-5 py-2.5 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-colors text-sm">Vyzkoušet 30 dní zdarma</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="py-20 border-t border-ink/5">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="max-w-2xl">
+        <h2 class="font-display text-2xl sm:text-3xl font-bold tracking-tight">Mějte dům v hlavě, ne v krabicích od bot.</h2>
+        <p class="mt-3 text-ink/55">30 dní zdarma. Bez platební karty. Zrušíte kdykoliv.</p>
+        <a href="#" class="mt-8 inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-colors text-sm">Vyzkoušet zdarma</a>
       </div>
     </div>
   </section>
@@ -248,23 +304,10 @@
   <!-- Footer -->
   <footer class="py-10 border-t border-ink/5">
     <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-      <div class="text-sm text-ink/40">&copy; 2026 Orcanaut</div>
-      <a href="#waitlist" class="text-sm text-accent hover:text-accent/80 transition-colors">Join the waitlist &uarr;</a>
+      <div class="text-sm text-ink/40">&copy; 2026 orcanaut</div>
+      <a href="#cta" class="text-sm text-accent hover:text-accent/80 transition-colors">Mít dům pod kontrolou &uarr;</a>
     </div>
   </footer>
-
-  <script>
-    function handleSubmit(e, form) {
-      e.preventDefault();
-      const email = form.querySelector('input[type="email"]').value;
-      const btn = form.querySelector('button');
-      btn.textContent = "You're in.";
-      btn.disabled = true;
-      btn.classList.add('opacity-75');
-      form.querySelector('input').disabled = true;
-      console.log('Waitlist signup:', email);
-    }
-  </script>
 
 </body>
 </html>

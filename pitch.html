@@ -49,10 +49,10 @@
     <div class="max-w-4xl mx-auto px-6 text-center">
       <p class="text-sm font-medium text-accent uppercase tracking-wider mb-4">Investor Pitch</p>
       <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-ink">
-        AI Agents That Do<br>
-        <span class="text-accent">Your Processes</span>
+        AI Decision<br>
+        <span class="text-accent">Intelligence</span>
       </h1>
-      <p class="mt-6 text-lg text-ink/50">Connect your tools. Define workflows. Agents reason, execute, get approval, and learn.</p>
+      <p class="mt-6 text-lg text-ink/50">Capture, explain, and prove every decision your AI makes &mdash; built for the EU AI Act.</p>
     </div>
   </section>
 
@@ -64,9 +64,9 @@
           <p class="font-display font-bold text-sm uppercase tracking-wider text-accent">The Problem</p>
         </div>
         <div class="space-y-4">
-          <p class="text-lg text-ink/80 leading-relaxed">Every company runs on dozens of tools &mdash; Jira, Slack, CRM, databases, email, cloud services. Business processes span across all of them.</p>
-          <p class="text-lg text-ink/80 leading-relaxed">Automating these cross-tool processes requires either <strong>expensive custom integrations</strong> or <strong>rigid workflow builders</strong> that break when anything changes.</p>
-          <p class="text-lg text-ink/60">Teams spend weeks wiring tools together instead of doing actual work.</p>
+          <p class="text-lg text-ink/80 leading-relaxed">AI now decides who gets a loan, a job interview, or an insurance payout. When someone asks <strong>"why was I rejected?"</strong>, most companies cannot answer &mdash; the model is a black box and nothing was logged.</p>
+          <p class="text-lg text-ink/80 leading-relaxed">From August 2026 the EU AI Act makes that illegal. High-risk AI systems must keep <strong>immutable logs</strong>, provide <strong>human-readable explanations</strong>, and prove <strong>human oversight</strong>.</p>
+          <p class="text-lg text-ink/60">Non-compliance costs up to <strong>&euro;35M or 7% of global turnover</strong>. Building this in-house takes a team most mid-sized companies don't have.</p>
         </div>
       </div>
     </div>
@@ -80,26 +80,22 @@
           <p class="font-display font-bold text-sm uppercase tracking-wider text-accent">The Solution</p>
         </div>
         <div class="space-y-4">
-          <p class="text-2xl font-display font-bold text-ink leading-snug">Orcanaut is an AI agent platform that automates business processes across your tools.</p>
-          <p class="text-lg text-ink/70 leading-relaxed">Connect your tools via MCP (Model Context Protocol). Define multi-step workflows with approval gates. Orcanaut's agents reason through each step, ask for human sign-off when it matters, delegate to specialized agents, and deliver results.</p>
+          <p class="text-2xl font-display font-bold text-ink leading-snug">Orcanaut captures, explains, and proves every decision your AI makes.</p>
+          <p class="text-lg text-ink/70 leading-relaxed">One line of code in your ML pipeline streams each decision into an immutable ledger. SHAP plus an LLM turn it into a plain-language explanation. A dashboard gives risk officers bias monitoring, drift alerts, and regulator-ready exports.</p>
           <div class="bg-white rounded-xl p-6 border border-ink/5 mt-6">
-            <p class="text-sm text-ink/50 mb-3">Unlike traditional automation (Zapier, n8n) which follows fixed rules:</p>
+            <p class="text-sm text-ink/50 mb-3">Three layers, one integration:</p>
             <div class="space-y-3">
               <div class="flex items-start gap-3">
                 <span class="text-accent mt-0.5">&#10132;</span>
-                <p class="text-ink/80">Orcanaut agents <strong>reason</strong> about what to do next</p>
+                <p class="text-ink/80"><strong>SDK / Audit API</strong> &mdash; Python, .NET, REST. PII anonymized locally before anything leaves your network</p>
               </div>
               <div class="flex items-start gap-3">
                 <span class="text-accent mt-0.5">&#10132;</span>
-                <p class="text-ink/80"><strong>Human-in-the-loop</strong> &mdash; agents pause for approval on sensitive actions, then continue autonomously</p>
+                <p class="text-ink/80"><strong>Decision Ledger</strong> &mdash; append-only event store, separate schema per tenant, no UPDATE or DELETE</p>
               </div>
               <div class="flex items-start gap-3">
                 <span class="text-accent mt-0.5">&#10132;</span>
-                <p class="text-ink/80"><strong>Multi-agent collaboration</strong> &mdash; agents delegate tasks to specialized agents for complex processes</p>
-              </div>
-              <div class="flex items-start gap-3">
-                <span class="text-accent mt-0.5">&#10132;</span>
-                <p class="text-ink/80">They have <strong>memory</strong> &mdash; every run teaches them something new</p>
+                <p class="text-ink/80"><strong>Explainability Engine + Dashboard</strong> &mdash; SHAP turned into human-readable text, plus bias &amp; drift monitoring</p>
               </div>
             </div>
           </div>
@@ -120,36 +116,36 @@
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">01</span>
               <div>
-                <p class="font-display font-bold text-ink">Connect your tools</p>
-                <p class="text-sm text-ink/55 mt-1">Plug in MCP servers for Jira, Slack, databases, APIs, or any service</p>
+                <p class="font-display font-bold text-ink">Add one line to your pipeline</p>
+                <p class="text-sm text-ink/55 mt-1">Install the SDK, expose a predict-only endpoint for explanations. PII is anonymized locally.</p>
               </div>
             </div>
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">02</span>
               <div>
-                <p class="font-display font-bold text-ink">Define an agent</p>
-                <p class="text-sm text-ink/55 mt-1">Describe its role, which tools it can use, and what processes it handles</p>
+                <p class="font-display font-bold text-ink">Decisions are logged immutably</p>
+                <p class="text-sm text-ink/55 mt-1">Model version, hashed inputs, confidence, threshold, outcome &mdash; append-only, tamper-evident.</p>
               </div>
             </div>
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">03</span>
               <div>
-                <p class="font-display font-bold text-ink">Give it a task</p>
-                <p class="text-sm text-ink/55 mt-1">"Process all new invoices" or "Onboard this new customer"</p>
+                <p class="font-display font-bold text-ink">SHAP explains each decision</p>
+                <p class="text-sm text-ink/55 mt-1">Async analysis after every record; an LLM turns the numbers into a sentence anyone can read.</p>
               </div>
             </div>
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">04</span>
               <div>
-                <p class="font-display font-bold text-ink">Agent executes the process</p>
-                <p class="text-sm text-ink/55 mt-1">Calls the right tools, in the right order, handles the full workflow</p>
+                <p class="font-display font-bold text-ink">Risk officers monitor &amp; export</p>
+                <p class="text-sm text-ink/55 mt-1">Track bias and drift, review individual cases, export regulator-ready audit files on demand.</p>
               </div>
             </div>
           </div>
 
           <div class="bg-white rounded-xl p-6 border border-ink/5 mt-8">
             <p class="text-xs text-ink/40 uppercase tracking-wider mb-3">Example</p>
-            <p class="text-ink/70"><strong class="text-ink">"Process new vendor invoices"</strong> &rarr; Agent scans invoices from email, matches to purchase orders, flags high-value items for manager approval, then schedules payments after sign-off.</p>
+            <p class="text-ink/70"><strong class="text-ink">"Why was application #8F2A1C rejected?"</strong> &rarr; Orcanaut returns: declined due to a high debt-to-income ratio (42%) and short credit history &mdash; with the immutable log, model version, and SHAP factors behind it.</p>
           </div>
         </div>
       </div>
@@ -166,15 +162,15 @@
         <div class="space-y-4">
           <div class="flex items-start gap-3">
             <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 shrink-0"></div>
-            <p class="text-lg text-ink/80"><strong>MCP is becoming the standard</strong> for connecting AI to tools &mdash; one protocol, any tool</p>
+            <p class="text-lg text-ink/80"><strong>August 2026:</strong> EU AI Act obligations for high-risk systems take effect &mdash; a hard, dated deadline</p>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 shrink-0"></div>
-            <p class="text-lg text-ink/80">LLMs can now <strong>reliably plan multi-step processes</strong> and use tools</p>
+            <p class="text-lg text-ink/80"><strong>Penalties up to &euro;35M or 7%</strong> of global turnover make this a board-level priority, not a nice-to-have</p>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2.5 shrink-0"></div>
-            <p class="text-lg text-ink/80">Companies are ready to move from <strong>"AI chatbots" to "AI that does work"</strong></p>
+            <p class="text-lg text-ink/80">Explainability matured &mdash; <strong>SHAP + LLMs</strong> can now turn model internals into language a regulator accepts</p>
           </div>
         </div>
       </div>
@@ -188,9 +184,9 @@
         <div>
           <p class="font-display font-bold text-sm uppercase tracking-wider text-accent mb-6">Market</p>
           <div class="space-y-4">
-            <p class="text-3xl font-display font-bold text-ink">$15B+</p>
-            <p class="text-sm text-ink/55">Intelligent process automation market by 2028</p>
-            <p class="text-sm text-ink/55 mt-4">Every company with 10+ SaaS tools is a potential customer. Land with dev/ops teams (API-first), expand to business teams (templates + UI).</p>
+            <p class="text-3xl font-display font-bold text-ink">Mid-market CEE</p>
+            <p class="text-sm text-ink/55">EU companies running AI on decisions about people: fintech (credit, BNPL), HR tech, insurers, health insurers.</p>
+            <p class="text-sm text-ink/55 mt-4">Too big to handle compliance by hand, too small for a 20-person compliance team. Land in CEE (ČNB / NBS / ČTÚ), expand across the EU.</p>
           </div>
         </div>
         <div>
@@ -198,15 +194,15 @@
           <div class="space-y-3">
             <div class="flex items-start gap-3">
               <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0"></div>
-              <p class="text-sm text-ink/70"><strong>Usage-based pricing</strong> &mdash; per process execution</p>
+              <p class="text-sm text-ink/70"><strong>SaaS, &euro;2&ndash;5k / month</strong> per customer</p>
             </div>
             <div class="flex items-start gap-3">
               <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0"></div>
-              <p class="text-sm text-ink/70">Built-in usage tracking: tokens, execution time, tool calls</p>
+              <p class="text-sm text-ink/70"><strong>Starter:</strong> shared cluster, separate schema per tenant</p>
             </div>
             <div class="flex items-start gap-3">
               <div class="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0"></div>
-              <p class="text-sm text-ink/70">Free tier for small teams &rarr; paid for organizations</p>
+              <p class="text-sm text-ink/70"><strong>Enterprise:</strong> dedicated database or on-premise Docker</p>
             </div>
           </div>
         </div>
@@ -223,29 +219,32 @@
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">Agents with memory</p>
-            <p class="text-sm text-ink/55 leading-relaxed">Every run stores learnings. Run 1 takes 5 steps. Run 50 takes 2. Agents compound knowledge &mdash; no workflow builder can match that.</p>
+            <p class="font-display font-bold text-ink mb-2">Local regulation</p>
+            <p class="text-sm text-ink/55 leading-relaxed">Exports built for ČNB, NBS, and ČTÚ. US and Swiss tools don't speak CEE regulation &mdash; we start there.</p>
           </div>
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">Human-in-the-loop</p>
-            <p class="text-sm text-ink/55 leading-relaxed">Built-in approval gates. Agents pause for human sign-off on sensitive actions, then resume autonomously. Trust without blind delegation.</p>
+            <p class="font-display font-bold text-ink mb-2">Mid-market fit</p>
+            <p class="text-sm text-ink/55 leading-relaxed">Priced and scoped for companies too small for Arize or Fiddler, too big to comply by hand.</p>
           </div>
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">MCP-native</p>
-            <p class="text-sm text-ink/55 leading-relaxed">Not locked to specific integrations. Any MCP-compatible tool works instantly. One protocol, infinite tools.</p>
+            <p class="font-display font-bold text-ink mb-2">One line to integrate</p>
+            <p class="text-sm text-ink/55 leading-relaxed">No data-science project. Drop in the SDK, expose one endpoint, and you're capturing decisions.</p>
           </div>
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">Multi-agent teams</p>
-            <p class="text-sm text-ink/55 leading-relaxed">Agents delegate to specialized agents. A coordinator handles the process while domain experts handle the details.</p>
+            <p class="font-display font-bold text-ink mb-2">Privacy by design</p>
+            <p class="text-sm text-ink/55 leading-relaxed">PII anonymized locally before anything leaves the customer's network. On-premise option for the strict.</p>
           </div>
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">Secure execution</p>
-            <p class="text-sm text-ink/55 leading-relaxed">All tasks run in isolated sandboxes. Tool access is scoped per agent. Your data stays protected.</p>
+            <p class="font-display font-bold text-ink mb-2">Immutable by default</p>
+            <p class="text-sm text-ink/55 leading-relaxed">Append-only ledger, tamper-evident hashes, schema-per-tenant. Built for an auditor, not just a dashboard.</p>
           </div>
           <div class="bg-white rounded-xl p-5 border border-ink/5">
-            <p class="font-display font-bold text-ink mb-2">Fully observable</p>
-            <p class="text-sm text-ink/55 leading-relaxed">Every step is logged and streamable in real-time. Audit log for every workflow step, every approval, every decision.</p>
+            <p class="font-display font-bold text-ink mb-2">Explanations that read</p>
+            <p class="text-sm text-ink/55 leading-relaxed">SHAP plus an LLM produce text a customer, a risk officer, and a regulator all understand.</p>
           </div>
+        </div>
+        <div class="md:col-start-2 mt-2">
+          <p class="text-xs text-ink/45 leading-relaxed"><strong class="text-ink/60">vs. the field:</strong> Arize and Fiddler are US-centric, enterprise-only ML observability with no CEE localization. LatticeFlow (ETH Zurich) is the closest analog but priced for Swiss banking tier. Orcanaut's wedge: local regulation, mid-sized firms, simplicity, on-premise.</p>
         </div>
       </div>
     </div>
@@ -256,24 +255,24 @@
     <div class="max-w-4xl mx-auto px-6">
       <div class="grid md:grid-cols-[200px_1fr] gap-8">
         <div>
-          <p class="font-display font-bold text-sm uppercase tracking-wider text-accent">Traction</p>
+          <p class="font-display font-bold text-sm uppercase tracking-wider text-accent">Where We Are</p>
         </div>
         <div class="space-y-3">
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <p class="text-ink/70">Working product: full agent loop (reason &rarr; execute &rarr; approve &rarr; learn &rarr; deliver)</p>
+            <p class="text-ink/70">MVP scope (months 1&ndash;3): SDK integration (Python + .NET) and append-only Decision Ledger</p>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <p class="text-ink/70">Multi-step workflow engine with human approval gates</p>
+            <p class="text-ink/70">Automated tenant onboarding &mdash; schema-per-tenant provisioning</p>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <p class="text-ink/70">Multi-agent orchestration &mdash; agents delegate to specialized agents</p>
+            <p class="text-ink/70">Architecture defined: SHAP explainability engine + Azure OpenAI on anonymized data</p>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <p class="text-ink/70">MCP tool integration, vector memory, file I/O, real-time streaming, scheduled runs</p>
+            <p class="text-ink/70">In design-partner conversations with CEE fintech and HR-tech</p>
           </div>
           <div class="flex items-start gap-3">
             <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -296,15 +295,15 @@
           <div class="space-y-4">
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">01</span>
-              <p class="text-ink/70">Launch public beta and onboard first 100 teams</p>
+              <p class="text-ink/70">Sign the first design partners and ship the SDK + Ledger to production</p>
             </div>
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">02</span>
-              <p class="text-ink/70">Build MCP tool marketplace (pre-built connectors for popular tools)</p>
+              <p class="text-ink/70">Build the Explainability Engine and risk-officer dashboard (SHAP, bias &amp; drift, exports)</p>
             </div>
             <div class="flex gap-5 items-start">
               <span class="font-mono text-sm text-accent font-bold mt-1 shrink-0">03</span>
-              <p class="text-ink/70">Add web UI so non-developers can create and manage agents</p>
+              <p class="text-ink/70">Bring on a regulatory advisor with ČNB credibility and harden the on-premise deployment</p>
             </div>
           </div>
         </div>
@@ -316,8 +315,8 @@
   <section class="py-20 border-t border-ink/5">
     <div class="max-w-4xl mx-auto px-6 text-center">
       <p class="font-display text-3xl sm:text-4xl font-bold text-ink tracking-tight">
-        AI agents that do your processes<br>
-        <span class="text-accent">across all your tools.</span>
+        Every AI decision &mdash;<br>
+        <span class="text-accent">logged, explained, and proven.</span>
       </p>
       <div class="mt-8">
         <a href="index.html#waitlist" class="inline-block px-6 py-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-md transition-colors text-sm">Get Early Access</a>
@@ -329,7 +328,7 @@
   <footer class="py-10 border-t border-ink/5">
     <div class="max-w-4xl mx-auto px-6 flex items-center justify-between">
       <div class="text-sm text-ink/40">&copy; 2026 Orcanaut</div>
-      <a href="index.html" class="text-sm text-accent hover:text-accent/80 transition-colors">orcanaut.dev</a>
+      <a href="index.html" class="text-sm text-accent hover:text-accent/80 transition-colors">orcanaut.com</a>
     </div>
   </footer>
 
